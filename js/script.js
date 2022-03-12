@@ -1,4 +1,14 @@
 function changeBG(bg){
     document.body.style.background=bg;
-    document.body.style.backgroundPosition=center;
+    let txt=document.getElementsByClassName("text");
+    if(bg=='url(/media/b3.jpeg)'){
+        for(let elem of txt){
+            elem.style.color="darkblue";
+        }
+    }
+    else{
+        for(let elem of txt){
+            elem.style.color="black";
+        }
+    }
 }
