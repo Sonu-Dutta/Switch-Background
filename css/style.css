@@ -11,13 +11,13 @@ body{
     background-color: rgb(201, 140, 27);
 }
 #two{
-    background-color: rgb(57, 122, 68);
+    background-color: #2e8874;
 }
 #three{
-    background-color: rgb(197 85 109);
+    background-color: rgb(33, 112, 148);
 }
 #four{
-    background-color: rgb(33, 112, 148);
+    background-color: #e48197;
 }
 .switch{
     width: 32rem;
@@ -66,7 +66,6 @@ h1,h2{
 p,h2,h1{
     background-color: rgb(240, 248, 255,.6);
     padding:.5rem 1rem;
-    text-shadow: 2px 2px 4px #edf9fc;
     width: 30rem;
     border-radius: .5rem;
 }
